@@ -93,6 +93,46 @@
             width: 60px;
             font-weight: bold;
         }
+        .selection-a {
+            background-color: #81C784;
+            color: #333;
+        }
+        .selection-b {
+            background-color: #FFB74D;
+            color: #333;
+        }
+        .selection-none {
+            background-color: #E0E0E0;
+            color: #666;
+        }
+        .stats-highlight {
+            font-weight: bold;
+            padding: 2px 6px;
+            border-radius: 3px;
+            background-color: #e3f2fd;
+        }
+        .award-winner {
+            font-weight: bold;
+            color: #d84315;
+            background: linear-gradient(90deg, #fff3e0 0%, transparent 100%);
+            padding: 4px 8px;
+            border-left: 3px solid #ff9800;
+            margin: 3px 0;
+        }
+        .regular-participant {
+            font-weight: bold;
+            padding: 2px 8px;
+            margin: 3px 0;
+        }
+        .champion-school {
+            font-weight: bold;
+            font-size: 16px;
+            padding: 8px 12px;
+            margin: 5px 0;
+            background-color: #f3e5f5;
+            border-radius: 5px;
+            border-left: 4px solid #9c27b0;
+        }
         .remarks {
             width: 80px;
             font-size: 11px;
@@ -150,8 +190,8 @@
                     <th class="task">課題曲</th>
                     <th class="piece">曲名（日本語）</th>
                     <th class="award results-header">賞</th>
-                    <th class="representative results-header">県代表選考会</th>
-                    <th class="selection-result results-header">代表選考会結果</th>
+                    <th class="representative results-header">県代表選考会（２０２４）</th>
+                    <th class="selection-result results-header">代表選考会結果（２０２４）</th>
                     <th class="remarks results-header">備考</th>
                 </tr>
             </thead>
@@ -270,7 +310,7 @@
                     <td class="piece">吹奏楽のための交響曲「ワインダーク・シー」よりⅠ.Ⅱ.Ⅲ</td>
                     <td class="award gold">金賞</td>
                     <td class="representative representative-mark">○</td>
-                    <td class="selection-result"></td>
+                    <td class="selection-result selection-b">Ｂ編成</td>
                     <td class="remarks"></td>
                 </tr>
                 <tr class="alternate-row">
@@ -361,7 +401,7 @@
                     <td class="piece">ル・シャン・ドゥ・ラムール・エ・ドゥ・ラ・プリエール（愛と祈りの歌）</td>
                     <td class="award gold">金賞</td>
                     <td class="representative representative-mark">○</td>
-                    <td class="selection-result"></td>
+                    <td class="selection-result selection-a">Ａ編成</td>
                     <td class="remarks"></td>
                 </tr>
                 <tr>
@@ -387,7 +427,7 @@
                     <td class="piece">ドラゴンの年（2017年版）</td>
                     <td class="award gold">金賞</td>
                     <td class="representative representative-mark">○</td>
-                    <td class="selection-result"></td>
+                    <td class="selection-result selection-none">選出されず</td>
                     <td class="remarks"></td>
                 </tr>
                 <tr>
@@ -400,7 +440,7 @@
                     <td class="piece">ブラック・ゴールド</td>
                     <td class="award gold">金賞</td>
                     <td class="representative representative-mark">○</td>
-                    <td class="selection-result"></td>
+                    <td class="selection-result selection-a">Ａ編成</td>
                     <td class="remarks"></td>
                 </tr>
                 <tr class="alternate-row">
@@ -426,7 +466,7 @@
                     <td class="piece">交響曲第Ⅰ番「悪魔の聖書」</td>
                     <td class="award gold">金賞</td>
                     <td class="representative representative-mark">○</td>
-                    <td class="selection-result"></td>
+                    <td class="selection-result selection-a">Ａ編成</td>
                     <td class="remarks"></td>
                 </tr>
             </tbody>
@@ -444,8 +484,8 @@
                     <th class="task">課題曲</th>
                     <th class="piece">曲名（日本語）</th>
                     <th class="award results-header">賞</th>
-                    <th class="representative results-header">県代表選考会</th>
-                    <th class="selection-result results-header">代表選考会結果</th>
+                    <th class="representative results-header">県代表選考会（２０２４）</th>
+                    <th class="selection-result results-header">代表選考会結果（２０２４）</th>
                     <th class="remarks results-header">備考</th>
                 </tr>
             </thead>
@@ -460,7 +500,7 @@
                     <td class="piece">再逢の空へ</td>
                     <td class="award gold">金賞</td>
                     <td class="representative representative-mark">○</td>
-                    <td class="selection-result"></td>
+                    <td class="selection-result selection-b">Ｂ編成</td>
                     <td class="remarks"></td>
                 </tr>
                 <tr class="alternate-row">
@@ -473,7 +513,7 @@
                     <td class="piece">エルサレム讃歌　～アルメニアの復活祭の讃歌による変奏曲～</td>
                     <td class="award gold">金賞</td>
                     <td class="representative representative-mark">○</td>
-                    <td class="selection-result"></td>
+                    <td class="selection-result selection-a">Ａ編成</td>
                     <td class="remarks"></td>
                 </tr>
                 <tr>
@@ -525,7 +565,7 @@
                     <td class="piece">２つの交響的断章</td>
                     <td class="award gold">金賞</td>
                     <td class="representative representative-mark">○</td>
-                    <td class="selection-result"></td>
+                    <td class="selection-result selection-a">Ａ編成</td>
                     <td class="remarks"></td>
                 </tr>
                 <tr>
@@ -642,7 +682,7 @@
                     <td class="piece">シンフォニエッタ第5番「火焔の鳥」</td>
                     <td class="award gold">金賞</td>
                     <td class="representative representative-mark">○</td>
-                    <td class="selection-result"></td>
+                    <td class="selection-result selection-none">選出されず</td>
                     <td class="remarks"></td>
                 </tr>
                 <tr class="alternate-row">
@@ -742,10 +782,84 @@
             <h3>凡例</h3>
             <p><strong>課題曲:</strong> 1〜4の番号で表示<br>
             <strong>演奏予定時間:</strong> 各団体の演奏開始予定時刻<br>
-            <strong>県大会 県代表選考会:</strong> ○印は県代表選考会出場校（14校）<br>
+            <strong>県大会 県代表選考会（２０２４）:</strong> ○印は県代表選考会出場校（14校）<br>
             <strong>県大会 賞:</strong> 金賞・銀賞・銅賞の色分け表示<br>
-            <strong>代表選考会結果:</strong> A編成（緑）は東海大会A編成、B編成（橙）は東海大会B編成出場<br>
+            <strong>代表選考会結果（２０２４）:</strong> A編成（緑）は東海大会A編成、B編成（橙）は東海大会B編成出場<br>
             <strong>空白:</strong> 代表選考会に出場しなかった学校または東海大会に進出しなかった学校</p>
+        </div>
+
+        <!-- 3年間の統計データ -->
+        <div style="margin-top: 40px; padding: 20px; background-color: #f9f9f9; border-radius: 8px;">
+            <h2 style="color: #2196F3; margin-top: 0; border-bottom: 2px solid #2196F3; padding-bottom: 10px;">代表選考会 3年間統計（2022-2024年）</h2>
+            
+            <div style="margin-bottom: 30px;">
+                <h3 style="color: #333;">毎年の内訳</h3>
+                <div style="background-color: white; padding: 15px; border-radius: 5px; margin-bottom: 10px;">
+                    <p><strong>3年間すべて同じ結果：</strong></p>
+                    <ul style="list-style-type: none; padding-left: 0;">
+                        <li style="margin: 5px 0;"><span class="stats-highlight">Ａ編成：7校（50%）</span></li>
+                        <li style="margin: 5px 0;"><span class="stats-highlight">Ｂ編成：3校（約21%）</span></li>
+                        <li style="margin: 5px 0;"><span class="stats-highlight">選出されず：4校（約29%）</span></li>
+                        <li style="margin: 5px 0;"><strong>毎年14校が参加</strong></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div style="margin-bottom: 30px;">
+                <h3 style="color: #333;">高校別参加回数・成績一覧</h3>
+                
+                <div style="margin-bottom: 25px;">
+                    <h4 style="color: #2E7D32; background-color: #81C784; padding: 8px; border-radius: 4px; margin: 10px 0;">Ａ編成（朝日新聞社賞・回数順）</h4>
+                    <ul style="background-color: white; padding: 15px; border-radius: 5px; border-left: 4px solid #81C784;">
+                        <li class="award-winner">愛知工業大学名電高等学校 3回 (2023年朝日新聞社賞, 2022年朝日新聞社賞)</li>
+                        <li class="award-winner">聖カタリナ学園光ヶ丘女子高等学校 3回 (2024年朝日新聞社賞)</li>
+                        <li class="regular-participant">愛知県立江南高等学校 3回</li>
+                        <li class="regular-participant">安城学園高等学校 3回</li>
+                        <li class="regular-participant">日本福祉大学付属高等学校 3回</li>
+                        <li class="regular-participant">名古屋大谷高等学校 3回</li>
+                        <li>愛知県立岡崎北高等学校 2回</li>
+                        <li>愛知県立豊田北高等学校 2回</li>
+                        <li>愛知県立木曽川高等学校 2回</li>
+                        <li>桜丘高等学校 2回</li>
+                        <li>中部大学春日丘高等学校 1回</li>
+                    </ul>
+                </div>
+
+                <div style="margin-bottom: 25px;">
+                    <h4 style="color: #E65100; background-color: #FFB74D; padding: 8px; border-radius: 4px; margin: 10px 0;">Ｂ編成（回数順）</h4>
+                    <ul style="background-color: white; padding: 15px; border-radius: 5px; border-left: 4px solid #FFB74D;">
+                        <li class="regular-participant">愛知県立名古屋南高等学校 3回</li>
+                        <li>東邦高等学校 2回</li>
+                        <li>愛知県立旭野高等学校 1回</li>
+                        <li>愛知県立岡崎西高等学校 1回</li>
+                    </ul>
+                </div>
+
+                <div style="margin-bottom: 25px;">
+                    <h4 style="color: #616161; background-color: #E0E0E0; padding: 8px; border-radius: 4px; margin: 10px 0;">選出されず（回数順）</h4>
+                    <ul style="background-color: white; padding: 15px; border-radius: 5px; border-left: 4px solid #E0E0E0;">
+                        <li>愛知県立安城高等学校 2回</li>
+                        <li>愛知県立刈谷高等学校 1回</li>
+                        <li>愛知県立春日井西高等学校 1回</li>
+                        <li>愛知県立豊橋東高等学校 1回</li>
+                        <li>大同大学大同高等学校 1回</li>
+                        <li>中部大学第一高等学校 1回</li>
+                        <li>豊川高等学校 1回</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div style="background-color: #fff3e0; padding: 15px; border-radius: 8px; border: 2px solid #ff9800;">
+                <h3 style="color: #E65100; margin-top: 0;">🏆 Ａ編成3年連続参加の強豪校（6校）</h3>
+                <ul style="list-style-type: none; padding-left: 0;">
+                    <li class="champion-school award-winner">愛知工業大学名電高等学校 (朝日新聞社賞2回受賞)</li>
+                    <li class="champion-school award-winner">聖カタリナ学園光ヶ丘女子高等学校 (朝日新聞社賞1回受賞)</li>
+                    <li class="champion-school">愛知県立江南高等学校</li>
+                    <li class="champion-school">安城学園高等学校</li>
+                    <li class="champion-school">日本福祉大学付属高等学校</li>
+                    <li class="champion-school">名古屋大谷高等学校</li>
+                </ul>
+            </div>
         </div>
     </div>
 </body>
